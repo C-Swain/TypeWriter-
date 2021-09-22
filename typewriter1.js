@@ -9,8 +9,7 @@ for (const char of newSentence) {
 	count += 1;
 	setTimeout(() => process.stdout.write(char), 50 * timer )
 	
-}
-process.stdout.write('\n')
+};
 };
 
 
